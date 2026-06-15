@@ -1,14 +1,11 @@
-// ==========================================
-// CONFIGURATION
-// ==========================================
 // REPLACE THIS WITH YOUR ACTUAL API KEY
-var API_KEY = 'AIzaSyBMUwIPQJOWtqrJlBhngmoDI_L8r3w7_OI'; 
+var API_KEY = 'API_KEY'; 
 var EXPENSE_SHEET_NAME = 'Raw_Data'; 
 var CREDIT_SHEET_NAME = 'Credits'; 
 var AI_RULES_SHEET_NAME = 'AI_Rules'; 
 
 // ==========================================
-// 🛠️ TOOL 1: THE ONE-TIME CLEANUP FIXER (EMERGENCY REPAIR)
+// THE ONE-TIME CLEANUP FIXER 
 // ==========================================
 function fixMySheetData() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
